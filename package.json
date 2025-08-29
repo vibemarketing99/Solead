@@ -1,0 +1,20 @@
+{
+  "name": "vibecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dashboard": "spec-workflow-mcp . --dashboard --port 3456",
+    "dashboard:auto": "spec-workflow-mcp . --AutoStartDashboard --port 3456",
+    "mcp": "spec-workflow-mcp .",
+    "spec": "spec-workflow-mcp . --help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@pimzino/spec-workflow-mcp": "^0.0.23"
+  }
+}
